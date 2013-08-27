@@ -1,0 +1,14 @@
+{
+  "name": "expressapi",
+  "version": "0.0.0",
+  "description": "simple express api used as an experiment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.3.5"
+  },
+  "author": "albertogg",
+  "license": "MIT"
+}
