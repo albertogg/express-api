@@ -4,7 +4,8 @@
   "description": "simple express api used for an experiment.",
   "main": "app.js",
   "scripts": {
-    "start": "supervisor app"
+    "start": "supervisor app",
+    "start-prod": "node app"
   },
   "dependencies": {
     "express": "3.3.5"
