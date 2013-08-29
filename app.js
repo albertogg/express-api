@@ -1,5 +1,5 @@
-var express = require('express');
-var app     = express();
+var express  = require('express')
+  , app      = express();
 
 var staticPages = require('./app/static_pages');
 var users       = require('./app/users');

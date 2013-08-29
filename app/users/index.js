@@ -1,6 +1,9 @@
-var express = require('express');
-var app     = module.exports = express();
+var express = require('express')
+  , resource = require('express-resource')
+  , app     = module.exports = express();
+
+app.set('views', __dirname + '/views');
 
 var controller = require('./controller');
 
-app.get('/users.json', controller.users);
+app.resource('users', controller);
